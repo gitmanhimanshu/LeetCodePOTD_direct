@@ -14,23 +14,23 @@
  * }
  */
 class Solution {
-    List<Integer> him;
+    
     public boolean isValidBST(TreeNode root) {
-        him=new ArrayList<>();
-        inorder(root);
-        for(int i=0;i<him.size()-1;i++){
-            if(him.get(i)>=him.get(i+1)){
-                return false;
-            }
-        }
-        return true;
+       return healper(root,null,null);
     }
-    void inorder(TreeNode root){
+    boolean healper(TreeNode root,Integer low,Integer high){
         if(root==null){
-            return;
+            return true;
         }
-        inorder(root.left);
-        him.add(root.val);
-        inorder(root.right);
+        if(low!=null&&root.val<=low){
+            return false;
+        }
+        if(high!=null&&root.val>=high){
+            return false;
+        }
+        boolean left=healper(root.left,low,root.val);
+        boolean right=healper(root.right,root.val,high);
+        return left&&right;
     }
-}
+    }
+  
