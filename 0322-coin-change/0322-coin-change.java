@@ -6,7 +6,7 @@ class Solution {
             Arrays.fill(a,-1);
         }
     int a=solve(coins,amount,coins.length-1);
-    if(a==(int )(1e9)){
+    if(a==Integer.MAX_VALUE/2){
         return -1;
     }
     return a;
@@ -16,7 +16,7 @@ class Solution {
             if(m%a[i]==0){
                 return m/a[i];
             }else{
-                return (int)(1e9);
+                return Integer.MAX_VALUE/2;
             }}
             if(dp[i][m]!=-1){
                 return dp[i][m];
