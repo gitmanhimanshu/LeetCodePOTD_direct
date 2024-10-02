@@ -1,37 +1,19 @@
 class Solution {
     public boolean canArrange(int[] arr, int k) {
-        Map<Integer, Integer> him = new HashMap<>();
-        
-      
-        for (int i : arr) {
-            int d = i % k;
-            if (d < 0) {
-                d = d + k;  
-            }
-            him.put(d, him.getOrDefault(d, 0) + 1);
+        int rem[]=new int[k];
+        for(int i:arr){
+            int r=((i)%k+k)%k;
+            rem[r]++;
         }
-
-   
-        for (int i : him.keySet()) {
-            int d = k - i;
-
-            
-            if (i == 0) {
-                if (him.get(i) % 2 != 0) {
-                    return false;
-                }
-            } 
-          
-            else if (i == d) {  
-                if (him.get(i) % 2 != 0) {
-                    return false;
-                }
-            } 
-           
-            else if (!him.containsKey(d) ||! him.get(i) .equals( him.get(d))) {
-                return false;
-            }
+    if(rem[0]%2!=0){
+        return false;
+    }
+    for(int i=1;i<=k/2;i++){
+        int left=k-i;
+        if(rem[i]!=rem[left]){
+            return false;
         }
-        return true;
+    }
+    return true;
     }
 }
