@@ -1,17 +1,18 @@
 class Solution {
-    public int minSwaps(String s) {
-        int balance = 0, swaps = 0;
-        for (char c : s.toCharArray()) {
-            if (c == '[') {
-                balance++;
-            } else {
-                balance--;
-            }
-            if (balance < 0) {
-                swaps++;
-                balance += 2;
+    public int minAddToMakeValid(String s) {
+        int ans=0;
+        int a=0;
+        for(char i:s.toCharArray()){
+            if(i=='('){
+                a++;
+            }else{
+                if(a>0){
+                    a--;
+                }else{
+                    ans++;
+                }
             }
         }
-        return swaps;
+        return ans+a;
     }
 }
