@@ -9,10 +9,11 @@ class Solution {
         for(int i=0;i<nums.length;i++){
             if(nums[i]==max){
                 c++;
-                ans=Math.max(ans,c);
+               
             }else{
                 c=0;
             }
+             ans=Math.max(ans,c);
         }
         return ans;
     }
