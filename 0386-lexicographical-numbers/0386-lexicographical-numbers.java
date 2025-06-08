@@ -1,17 +1,23 @@
 class Solution {
+    List<Integer> him;
     public List<Integer> lexicalOrder(int n) {
-   List<Integer> him=new ArrayList<>();
-       for(int i=1;i<=n;i++){
-        him.add(i);
-       } 
-       Collections.sort(him,new Comparator<Integer>(){
-        
-            public int compare(Integer a,Integer b){
-                String s1=a+","+b;
-                String s2=b+","+a;
-                return s1.compareTo(s2);
-            }
-       });
-       return him;
+        him=new ArrayList<>();
+        for(int i=1;i<=9;i++){
+            find(i,n);
+        }
+        return him;
+    }
+    void find(int t,int n){
+        if(him.size()==n){
+            return;
+        }
+        him.add(t);
+        for(int i=0;i<=9;i++){
+        int num=t*10+i;
+        if(num>n){
+            return ;
+        }
+        find(num,n);
+        }
     }
 }
