@@ -9,6 +9,6 @@ class Solution {
            him.add(new int[]{nums[i],nums[i+1],nums[i+2]});
        }
        
-     return him.toArray(new int[him.size()][3]);
+     return him.toArray(new int[him.size()][]);
     }
 }
