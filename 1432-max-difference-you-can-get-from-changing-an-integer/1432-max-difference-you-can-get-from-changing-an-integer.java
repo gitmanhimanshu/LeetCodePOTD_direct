@@ -12,7 +12,8 @@ public class Solution {
 
         for (char digit : uniqueDigits) {
             for (char newDigit = '0'; newDigit <= '9'; newDigit++) {
-                if (numStr.charAt(0) == digit && newDigit == '0') continue;
+                if (numStr.charAt(0) == digit && newDigit == '0')
+                    continue;
                 String newNumStr = numStr.replace(digit, newDigit);
                 int newNum = Integer.parseInt(newNumStr);
                 maxVal = Math.max(maxVal, newNum);
