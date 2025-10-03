@@ -21,17 +21,15 @@ class Solution {
         //     }
         // }
         int n=matrix.length;
-        int a[][]=new int[n][n];
+
         for(int i=0;i<matrix.length;i++){
-            for(int j=0;j<n;j++){
-                a[i][j]=matrix[j][i];
+            for(int j=i+1;j<n;j++){
+               int c=matrix[j][i];
+               matrix[j][i]=matrix[i][j];
+               matrix[i][j]=c;
             }
         }
-        for(int i=0;i<n;i++){
-            for(int j=0;j<n;j++){
-                matrix[i][j]=a[i][j];
-            }
-        }
+
 
         int i=0;int j=n-1;
         while(i<j){
