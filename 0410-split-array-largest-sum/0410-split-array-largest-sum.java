@@ -1,9 +1,9 @@
 class Solution {
     public int splitArray(int[] nums, int k) {
-        int min=Integer.MAX_VALUE;
+        int min=0;
         int max=0;
         for(int i:nums){
-            min=Math.min(i,min);
+            min=Math.max(i,min);
             max+=i;
         }
         int ans=-1;
