@@ -1,16 +1,24 @@
 class Solution {
+    Integer[][] dp;
+
     public int maxSumDivThree(int[] nums) {
-       return solve(0,nums,0);
+        dp = new Integer[nums.length][3];
+        return solve(0, nums, 0);
     }
-    int solve(int i,int nums[],int sum){
-        if(i==nums.length){
-            if (sum%3==0){
-                return sum;
-            }
-            return Integer.MIN_VALUE;
+
+    int solve(int i, int[] nums, int rem) {
+        if (i == nums.length) {
+            return rem == 0 ? 0 : Integer.MIN_VALUE;
         }
-        int take=solve(i+1,nums,sum+nums[i]);
-        int nontake=solve(i+1,nums,sum);
-        return Math.max(take,nontake);
+
+        if (dp[i][rem] != null) return dp[i][rem];
+
+        
+        int take = nums[i] + solve(i + 1, nums, (rem + nums[i]) % 3);
+
+    
+        int nontake = solve(i + 1, nums, rem);
+
+        return dp[i][rem] = Math.max(take, nontake);
     }
 }
