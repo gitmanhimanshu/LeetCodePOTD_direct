@@ -1,19 +1,28 @@
 class Solution {
+
+   boolean isFind(int[] a, int target) {
+        int left = 0;
+        int right = a.length - 1;
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+
+            if (a[mid] == target) {
+                return true;  
+            } else if (a[mid] < target) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+        return false; 
+    }
+
     public boolean searchMatrix(int[][] matrix, int target) {
-        int row=matrix.length;
-        int col=matrix[0].length;
-        int s=0,e=col-1;
-        while(s<row&&e>=0){
-            if(matrix[s][e]==target){
+        for(int a[]:matrix){
+            if(isFind(a,target)){
                 return true;
             }
-            if(matrix[s][e]<target){
-                s++;
-            }
-             else{
-                e--;
-            }
-            
         }
         return false;
     }
