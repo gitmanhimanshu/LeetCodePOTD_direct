@@ -3,15 +3,14 @@ class Solution {
         if(s.length()!=goal.length()){
             return false;
         }
-       StringBuilder him=new StringBuilder(s);
+        StringBuilder sb=new StringBuilder(s);
        for(int i=0;i<s.length();i++){
-        if(him.toString().equals(goal)){
+        if(sb.toString().equals(goal)){
             return true;
         }
-        char ch=him.charAt(0);
-        him.deleteCharAt(0);
-
-        him.append(ch);
+        char c=sb.charAt(0);
+        sb.deleteCharAt(0);
+        sb.append(c);
        }
        return false;
     }
