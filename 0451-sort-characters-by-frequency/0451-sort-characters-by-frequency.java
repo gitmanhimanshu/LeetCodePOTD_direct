@@ -1,33 +1,35 @@
+
 class Solution {
     public String frequencySort(String s) {
-   Map<Character,Integer> him=new HashMap<>();
-        for(int i=0;i<s.length();i++){
-            him.put(s.charAt(i),him.getOrDefault(s.charAt(i),0)+1);
+
+        Map<Character, Integer> him = new HashMap<>();
+        for (char i : s.toCharArray()) {
+            him.put(i, him.getOrDefault(i, 0) + 1);
+
         }
+
         int max=0;
-        for(Character i: him.keySet()){
-          int p=him.get(i);
-            if(p>max){
-                max=p;
-            }
-            }
-        List<Character> [] a=new ArrayList[max+1];
-        for(Character i: him.keySet()){
-            if(a[him.get(i)]==null){
-                a[him.get(i)]=new ArrayList<>();
-            }
-            a[him.get(i)].add(i);
+        for(int i:him.values()){
+            max=Math.max(i,max);
         }
-        StringBuilder ans=new StringBuilder();
-        for(int i=a.length-1;i>=0;i--){
-            if(a[i]!=null){
-             for(char n:a[i]){
-                 for(int k=0;k<i;k++){
-                 ans.append(n);
-             }
-             }
+        List<Character>[] arr=new ArrayList[max+1];
+        for(Character i:him.keySet()){
+            if(arr[him.get(i)]==null){
+                arr[him.get(i)]=new ArrayList<>();
             }
+            arr[him.get(i)].add(i);
         }
-        return ans.toString();
+        StringBuilder sb=new StringBuilder();
+        for(int i=arr.length-1;i>=0;i--){
+            if (arr[i]!=null)
+            {
+                for(Character c:arr[i]){
+                    for(int l=1;l<=i;l++){
+                        sb.append(c);
+                    }
+                }
+            }       
+             }
+return sb.toString();
     }
 }
