@@ -10,61 +10,71 @@
  */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        if(l1==null&&l2==null){
-return null;}
         if(l1==null){
-            ListNode head=new ListNode(l2.val);
-            return head;
+            return l2;
         }
-           if(l2==null){
-            ListNode head=new ListNode(l1.val);
-            return head;
+        if (l2==null){
+            return l1;
         }
-        
-     ListNode temp1=l1;int c=0;
-          ListNode temp2=l2;
-    int n=temp1.val+temp2.val;
-        ListNode head=new ListNode(n%10);
-        c=n/10;
-        temp1=temp1.next;
-        ListNode temp=head;
-        temp2=temp2.next;
-        while(temp1!=null&&temp2!=null){
-            n=temp1.val+temp2.val+c;
-            ListNode nnode=new ListNode(n%10);
-            c=n/10;
-            temp.next=nnode;
-            temp=nnode;
-             temp1=temp1.next;
-             temp2=temp2.next;
+        int c=0;
+        ListNode head=null;
+        ListNode temp=null;
+        while(l1!=null&&l2!=null){
+            int t=l1.val+l2.val+c;
+            c=t/10;           
+          ListNode  tt=new ListNode(t%10);
+            if(head==null){
+                head=tt;
+                temp=tt;
+            }else{
+            temp.next=tt; 
+            temp=temp.next;
+            }
             
+            l1=l1.next;
+            l2=l2.next;
+
         }
-        if(temp1!=null){
-            while(temp1!=null){
-            n=temp1.val+c;
-            ListNode nnode=new ListNode(n%10);
-            c=n/10;
-            temp.next=nnode;
-            temp=nnode;
-                temp1=temp1.next;
+        while(l1!=null){
+            int t=l1.val+c;
+            c=t/10;           
+           ListNode  tt=new ListNode(t%10);
+            if(head==null){
+                head=tt;
+                temp=tt;
+            }else{
+            temp.next=tt; 
+            temp=temp.next;
+            }
+
+              
+            l1=l1.next;
+        
         }
+        while(l2!=null){
+            int t=l2.val+c;
+            c=t/10;           
+           ListNode  tt=new ListNode(t%10);
+            if(head==null){
+                head=tt;
+                temp=tt;
+            }else{
+            temp.next=tt; 
+            temp=temp.next;
+            }  
+            l2=l2.next;
+        
         }
-         if(temp2!=null){
-             while(temp2!=null){
-            n=temp2.val+c;
-            ListNode nnode=new ListNode(n%10);
-            c=n/10;
-            temp.next=nnode;
-            temp=nnode;
-                 temp2=temp2.next;
-        }
-         }
         if(c!=0){
-            ListNode nnode=new ListNode(c);
-            temp.next=nnode;
-            temp=nnode;
+            ListNode  tt=new ListNode(c);
+            if(head==null){
+                head=tt;
+                temp=tt;
+            }else{
+            temp.next=tt; 
+            temp=temp.next;
+            } 
         }
         return head;
-        
     }
 }
