@@ -1,38 +1,36 @@
 class Solution {
     public int myAtoi(String s) {
-        int n = s.length();
-        int i = 0;
-        int sign = 1;
-        while (i < n && s.charAt(i) == ' ') {
-            i++;
-        }
-        if (i >= n) {
+        s=s.trim();
+        if(s.length()==0){
             return 0;
         }
-        if (s.charAt(i) == '-') {
-            sign = -1;
+        
+        int sign=1;
+        int i=0;
+        if(s.charAt(0)=='-'){
+            sign=-1;
+            i=1;
+        }else if(s.charAt(0)=='+'){
+            sign=1;
+            i=1;
         }
-        if (s.charAt(i) == '+' || s.charAt(i) == '-') {
-            i++;
+        
+    return (int)solve(s,i,sign,0L);
+
+    }
+    long solve(String s,int i,int sign,long n){
+        if(i>=s.length()||!Character.isDigit(s.charAt(i))){
+            return sign*n;
         }
 
-        if (i >= n) {
-            return 0;
+        n=n*10+(s.charAt(i)-'0');
+        if(n*sign>=Integer.MAX_VALUE){
+            return Integer.MAX_VALUE;
         }
-        int num = 0;
-        while (i < n && s.charAt(i) >= '0' && s.charAt(i) <= '9') {
-            int x = s.charAt(i) - '0';
-            //System.out.println(x);
-            if (num > Integer.MAX_VALUE / 10 || (num == Integer.MAX_VALUE / 10 && x > Integer.MAX_VALUE % 10)) {
-                if (sign == 1) {
-                    return Integer.MAX_VALUE;
-                } else {
-                    return Integer.MIN_VALUE;
-                }
-            }
-            num = num * 10 + x;
-            i++;
+        if(n*sign<=Integer.MIN_VALUE){
+            return Integer.MIN_VALUE;
         }
-        return num * sign;
+     return    solve(s,i+1,sign,n);
+        
     }
 }
