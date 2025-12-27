@@ -1,8 +1,8 @@
 class Solution {
     public double myPow(double x, int n) {
-        int nn = n;
+        long nn =n;
         if (n < 0) {
-            nn = n * -1;
+            nn = nn * -1;
         }
         double ans = 1.0;
         while (nn >= 1) {
