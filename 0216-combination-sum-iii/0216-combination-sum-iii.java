@@ -21,8 +21,9 @@ class Solution {
                 him.add(i);
                 solve(k,n,him,sum+i,i+1);
                 him.remove(him.size()-1);
+                solve(k,n,him,sum,i+1);
             }
-            solve(k,n,him,sum,i+1);
+            
         }
     }
 }
