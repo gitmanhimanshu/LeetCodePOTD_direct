@@ -1,28 +1,49 @@
 class Solution {
     public List<String> letterCombinations(String digits) {
-      String a[]=new String[10];
-             List<String> him=new ArrayList<>();
-        if(digits.equals("")){
-            return him;
-        }
-        a[0]="";
-        a[1]="";
-        a[2]="abc"; a[3]="def"; a[4]="ghi"; a[5]="jkl"; a[6]="mno"; a[7]="pqrs"; a[8]="tuv";
-        a[9]="wxyz";
-   
-        find(0,digits,him,a,"");
-        return him;
+        List<String> ans=new ArrayList<>();
+        solve(digits,0,ans,"");
+        return ans;
     }
-    void find(int ind,String digits,List<String> him,String a[],String n){
+    void solve(String digits,int ind,List<String> ans,String t){
         if(ind==digits.length()){
-            him.add(n);
+            ans.add(t);
             return;
         }
-        String str=a[digits.charAt(ind)-'0'];
-        for(int i=0;i<str.length();i++){
-            n=n+str.charAt(i);
-            find(ind+1,digits,him,a,n);
-            n=n.substring(0,n.length()-1);
+        String data=get(digits.charAt(ind));
+        for(char i:data.toCharArray()){
+            solve(digits,ind+1,ans,t+i);
+
         }
+
     }
+  String get(char c) {
+    switch (c) {
+        case '1':
+            return "";          // usually no letters on 1
+        case '2':
+            return "abc";
+        case '3':
+            return "def";
+        case '4':
+            return "ghi";
+        case '5':
+            return "jkl";
+        case '6':
+            return "mno";
+        case '7':
+            return "pqrs";
+        case '8':
+            return "tuv";
+        case '9':
+            return "wxyz";
+        case '0':
+            return " ";         // space
+        case '*':
+            return "*";
+        case '#':
+            return "#";
+        default:
+            return "";
+    }
+}
 }
