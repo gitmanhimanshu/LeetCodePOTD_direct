@@ -1,60 +1,31 @@
 class Solution {
-    boolean ans=false;
+    boolean b[][];
     public boolean exist(char[][] board, String word) {
-
-        int n=board.length;
-        int m=board[0].length;
-                boolean b[][]=new boolean[n][m];
-     for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                if(board[i][j]==word.charAt(0)&&b[i][j]==false){
-                      if(1==word.length()){
-                    ans=true;
+        b=new boolean[board.length][board[0].length];
+        for(int i=0;i<board.length;i++){
+            for(int j=0;j<board[0].length;j++){
+                if(board[i][j]==word.charAt(0)){
+                   if (solve(i,j,word,board,0)){
+                    return true;
+                   }
                 }
-                    b[i][j]=true;
-                     if(i>0){
-                      find(board,b,word,i-1,j,1);  
-                     }
-                     if(j>0){
-                        find(board,b,word,i,j-1,1);  
-                       }
-                       if(j<m-1){
-                        find(board,b,word,i,j+1,1);  
-                       }
-                       if(i<n-1){
-                        find(board,b,word,i+1,j,1);  
-                       }
-                }
-                b[i][j]=false;
             }
         }
-        System.out.println(ans);   
-        return ans;
+        return false;
     }
-        
- void find(char a[][],boolean b[][],String s,int i,int j,int ind){
-            if(ans==true){
-                return;
-            }
-            
-            if(ind!=s.length()&&s.charAt(ind)==a[i][j]&&b[i][j]==false){
-                if(ind+1==s.length()){
-                    ans=true;
-                }
-                b[i][j]=true;
-                if(i>0){
-                 find(a,b,s,i-1,j,ind+1);  
-                }
-                if(j>0){
-                   find(a,b,s,i,j-1,ind+1);  
-                  }
-                  if(j<a[0].length-1){
-                   find(a,b,s,i,j+1,ind+1);  
-                  }
-                  if(i<a.length-1){
-                   find(a,b,s,i+1,j,ind+1); 
-            }
-            b[i][j]=false;
+    boolean solve(int i,int j,String word,char a[][],int ind){
+        if(ind>=word.length()){
+            return true;
+        }
+        if (i < 0 || j < 0 || i >= a.length || j >= a[0].length
+                || a[i][j] != word.charAt(ind)||b[i][j]) {
+            return false;
+        }
+        b[i][j]=true;
+      boolean t=  solve(i+1,j,word,a,ind+1)||solve(i-1,j,word,a,ind+1)||solve(i,j+1,word,a,ind+1)||solve(i,j-1,word,a,ind+1);
+        b[i][j]=false;
+        return t;
+
+
     }
-}
 }
