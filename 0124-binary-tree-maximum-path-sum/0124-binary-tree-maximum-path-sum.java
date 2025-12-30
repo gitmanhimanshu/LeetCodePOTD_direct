@@ -14,25 +14,21 @@
  * }
  */
 class Solution {
-    int max=Integer.MIN_VALUE;;
+     int maxSum = Integer.MIN_VALUE;
     public int maxPathSum(TreeNode root) {
-        if(root==null){
-            return 0;
-        }
-   int a= healper(root);
-    return max;
+solve(root);
+return  maxSum;
     }
-    int healper(TreeNode root){
-        if(root==null){
+
+    int solve(TreeNode root) {
+        if (root == null) {
             return 0;
         }
-        int left=healper(root.left);
-        int right=healper(root.right);
-        left=Math.max(0,left);
-        right=Math.max(0,right);
-        int ans=left+right+root.val;
-       max =Math.max(max,ans);
-     
-        return Math.max(left,right)+root.val;
+        int left=solve(root.left);
+        int right=solve(root.right);
+      int lfmax=Math.max(left,0);
+      int rmax=Math.max(right,0);
+      maxSum = Math.max(maxSum, left + right + root.val);
+      return Math.max(lfmax+rmax+root.val,lfmax+rmax);
     }
 }
