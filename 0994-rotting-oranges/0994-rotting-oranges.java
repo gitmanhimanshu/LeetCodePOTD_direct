@@ -1,64 +1,63 @@
 class Solution {
-    boolean isValid(int [][]a,int x,int y){
-        if(x>=0&&y>=0&&x<a.length&&y<a[0].length&&a[x][y]==1){
-            return true;
-        }
-        return false;
+
+    boolean isValid(int [][]a, int x, int y){
+        return x>=0 && y>=0 && x<a.length && y<a[0].length && a[x][y]==1;
     }
+
+    class Pair{
+        int i, j;
+        Pair(int i, int j){
+            this.i = i;
+            this.j = j;
+        }
+    }
+
     public int orangesRotting(int[][] grid) {
-      int ans=0;
-        int c=0;
-        Queue<Pair<Integer,Integer>> him=new LinkedList<>();
+
+        Queue<Pair> q = new LinkedList<>();
+
+        // add all rotten oranges
         for(int i=0;i<grid.length;i++){
             for(int j=0;j<grid[0].length;j++){
                 if(grid[i][j]==2){
-                   
-                    him.add(new Pair<>(i,j));
-                }
-                if(grid[i][j]==1){
-                    c++;
+                    q.add(new Pair(i,j));
                 }
             }
         }
-        if(c==0){
-            return 0;
-        }
-        while(!him.isEmpty()){
-             int temp=0;
-            int size=him.size();
-            for(int i=1;i<=size;i++){
-                Pair<Integer,Integer> h=him.poll();
-                int x=h.getKey();
-               
-                int y=h.getValue();
-                int ax[]={1,-1,0,0};
-                int ay[]={0,0,1,-1};
-                for(int j=0;j<4;j++){
-                   int x1=x+ax[j];
-                    int y1=y+ay[j];
-                    if(isValid(grid,x1,y1)){
-                        temp++;
-                        grid[x1][y1]=2;
-                        him.add(new Pair<>(x1,y1));
+
+        int time = 0;
+        int[] x = {1,-1,0,0};
+        int[] y = {0,0,1,-1};
+
+        while(!q.isEmpty()){
+            int size = q.size();
+            boolean rotted = false;
+
+            for(int i=0;i<size;i++){
+                Pair p = q.poll();
+
+                for(int d=0; d<4; d++){
+                    int nx = p.i + x[d];
+                    int ny = p.j + y[d];
+
+                    if(isValid(grid, nx, ny)){
+                        grid[nx][ny] = 2;
+                        q.add(new Pair(nx, ny));
+                        rotted = true;
                     }
                 }
             }
-             if(temp!=0){
-                ans++;
-            }
-           
+
+            if(rotted) time++;
         }
-         for(int i=0;i<grid.length;i++){
+
+        // check if any fresh orange left
+        for(int i=0;i<grid.length;i++){
             for(int j=0;j<grid[0].length;j++){
-                if(grid[i][j]==1){
-                 ans=0;
-                }
+                if(grid[i][j]==1) return -1;
             }
         }
-        if(ans==0){
-            return -1;
-        }
-        return ans;
-        
+
+        return time;
     }
 }
