@@ -1,50 +1,25 @@
 class Solution {
+    int x[];
+    int y[];
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
-       boolean vis[][]=new boolean[image.length][image[0].length];
-        int v=image[sr][sc];
-        image[sr][sc]=color;
-        if(sr>0&&vis[sr-1][sc]==false&&image[sr-1][sc]==v){
-           vis[sr-1][sc]=true;
-            image[sr-1][sc]=color;
-            dfs(image,vis,sr-1,sc,v,color);
-        }
-          if(sc>0&&vis[sr][sc-1]==false&&image[sr][sc-1]==v){
-           vis[sr][sc-1]=true;
-              image[sr][sc-1]=color;
-            dfs(image,vis,sr,sc-1,v,color);
-        }
-        if(sr<vis.length-1&&vis[sr+1][sc]==false&&image[sr+1][sc]==v){
-           vis[sr+1][sc]=true;
-              image[sr+1][sc]=color;
-            dfs(image,vis,sr+1,sc,v,color);
-        }
-         if(sc<vis[0].length-1&&vis[sr][sc+1]==false&&image[sr][sc+1]==v){
-           vis[sr][sc+1]=true;
-              image[sr][sc+1]=color;
-            dfs(image,vis,sr,sc+1,v,color);
-        }
-        return image;
+        x=new int[]{1,-1,0,0};
+        y=new int[]{0,0,1,-1};
+        int st=image[sr][sc];
+         for(int i=0;i<4;i++){
+            solve(image,sr+x[i],sc+y[i],color,st);
+         }
+         return image;
     }
-    void dfs(int [][]image,boolean vis[][],int sr,int sc,int v,int color){
-         if(sr>0&&vis[sr-1][sc]==false&&image[sr-1][sc]==v){
-           vis[sr-1][sc]=true;
-            image[sr-1][sc]=color;
-            dfs(image,vis,sr-1,sc,v,color);
+    boolean isValid(int [][]a, int x, int y,int color,int st){
+        return x>=0 && y>=0 && x<a.length && y<a[0].length && a[x][y]!=color && a[x][y]==st;
+    }
+   void solve(int image[][],int sr,int sc,int color,int st){
+        if(!isValid(image,sr,sc,color,st)){
+            return;
         }
-          if(sc>0&&vis[sr][sc-1]==false&&image[sr][sc-1]==v){
-           vis[sr][sc-1]=true;
-              image[sr][sc-1]=color;
-            dfs(image,vis,sr,sc-1,v,color);
-        }
-        if(sr<vis.length-1&&vis[sr+1][sc]==false&&image[sr+1][sc]==v){
-           vis[sr+1][sc]=true;
-              image[sr+1][sc]=color;
-            dfs(image,vis,sr+1,sc,v,color);
-        }
-         if(sc<vis[0].length-1&&vis[sr][sc+1]==false&&image[sr][sc+1]==v){
-           vis[sr][sc+1]=true;
-              image[sr][sc+1]=color;
-            dfs(image,vis,sr,sc+1,v,color);
-        }
+        image[sr][sc]=color;
+        for(int i=0;i<4;i++){
+            solve(image,sr+x[i],sc+y[i],color,st);
+         }
     }
 }
