@@ -1,32 +1,27 @@
 class Solution {
     public int findCircleNum(int[][] isConnected) {
-   List<List<Integer>> him=new ArrayList<>();
-        int m=isConnected.length;
-        int n=isConnected[0].length;
-        for(int i=0;i<m;i++){
+        List<List<Integer>> him=new ArrayList<>();
+        for(int i=0;i<isConnected.length;i++){
             him.add(new ArrayList<>());
-            for(int j=0;j<n;j++){
-                if(isConnected[i][j]==1){
-                him.get(i).add(j);
+            for(int j=0;j<isConnected.length;j++){
+               if(isConnected[i][j]==1) him.get(i).add(j);
             }
         }
-        }
-        int a=0;
-        boolean vis[]=new boolean[n];
-        for(int i=0;i<m;i++){
-            if(vis[i]==false){
-                a++;
-                vis[i]=true;
-                dfs(him,i,vis);
+        int vis[]=new int[isConnected.length];
+        int ans=0;
+        for(int i=0;i<vis.length;i++ ){
+            if(vis[i]==0){
+                ans++;
+                dfs(him,vis,i);
             }
         }
-        return a;
+        return ans;
     }
-    void dfs(List<List<Integer>> him,int i,boolean vis[]){
-        for(int j=0;j<him.get(i).size();j++){
-            if(vis[him.get(i).get(j)]==false){
-                vis[him.get(i).get(j)]=true;
-                dfs(him,him.get(i).get(j),vis);
+    void dfs(List<List<Integer>> him,int []vis,int ind){
+        for(int i:him.get(ind)){
+            if(vis[i]==0){
+                vis[i]=1;
+                dfs(him,vis,i);
             }
         }
     }
