@@ -57,10 +57,10 @@ class Solution {
             for (int i = 1; i <= n; i++) {
                 TreeNode p = q.poll();
                 vis.add(p);
-                if (p.left != null) {
+                if (p.left != null && !vis.contains(p.left)) {
                     q.add(p.left);
                 }
-                if (p.right != null) {
+                if (p.right != null&& !vis.contains(p.right)) {
                     q.add(p.right);
                 }
                 TreeNode par = him.get(p);
