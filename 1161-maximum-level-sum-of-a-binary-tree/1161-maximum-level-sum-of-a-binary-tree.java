@@ -21,7 +21,7 @@ class Solution {
        }
        him.add(root);
        int level=0;
-       int ans=0;
+       int ans=Integer.MIN_VALUE;
        int l=0;
        while(!him.isEmpty()){
         int n=him.size();
