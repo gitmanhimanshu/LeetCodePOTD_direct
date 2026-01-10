@@ -1,33 +1,24 @@
 class Solution {
+    int dp[][];
+
     public int maxDotProduct(int[] nums1, int[] nums2) {
-        int n = nums1.length;
-        int m = nums2.length;
-        
-        if (m > n) {
-            return maxDotProduct(nums2, nums1);
+        dp = new int[nums1.length + 1][nums2.length + 1];
+        for (int a[] : dp) {
+                Arrays.fill(a,-1);
         }
-        
-        int[] dp = new int[m + 1];
-        Arrays.fill(dp, -1000000000); 
-        
-        for (int i = 1; i <= n; i++) {
-            int prev_diag = -1000000000;
-            
-            for (int j = 1; j <= m; j++) {
-                int curr_product = nums1[i-1] * nums2[j-1];
-                int temp = dp[j];
-                
-                int option1 = curr_product;
-                int option2 = curr_product + prev_diag;
-                int option3 = dp[j];
-                int option4 = dp[j-1];
-                
-                dp[j] = Math.max(Math.max(option1, option2), Math.max(option3, option4));
-                
-                prev_diag = temp;
-            }
+        return solve(0, 0, nums1, nums2);
+    }
+
+    int solve(int i,int j,int a[],int b[]){
+        if(i>=a.length||j>=b.length){
+            return Integer.MIN_VALUE;
         }
-        
-        return dp[m];
+        if(dp[i][j]!=-1){
+            return dp[i][j];
+        }
+        int taken=a[i]*b[j]+Math.max(0,solve(i+1,j+1,a,b));
+        int ir=solve(i,j+1,a,b);
+        int jr=solve(i+1,j,a,b);
+        return dp[i][j]= Math.max(taken,Math.max(ir,jr));
     }
 }
