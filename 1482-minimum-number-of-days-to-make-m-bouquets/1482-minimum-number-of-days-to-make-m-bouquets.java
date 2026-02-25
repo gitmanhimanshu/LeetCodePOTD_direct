@@ -1,24 +1,24 @@
 class Solution {
     public int minDays(int[] bloomDay, int m, int k) {
-        int l=1;
-        int r=0;
-        int ans=-1;
-        if ((long)m * k > bloomDay.length) return -1;
-        for (int i : bloomDay) {
-            r = Math.max(r, i);
+        int min=1;
+        int max=Integer.MIN_VALUE;
+        for(int i:bloomDay){
+            max=Math.max(max,i);
         }
-        while(l<r){
-            int mid=l+(r-l)/2;
-            if(isPos(bloomDay,m,k,mid)){
-                r=mid;
+int ans=-1;
+        while(min<=max){
+            int mid=(min+max)/2;
+            if(ispass(mid,bloomDay,m,k)){
                 ans=mid;
+                max=mid-1;
             }else{
-                l=mid+1;
+                min=mid+1;
             }
         }
-        return l;
+        return ans;
     }
-    boolean isPos(int a[],int m,int k,int day){
+
+boolean ispass(int day,int a[],int m,int k){
         int c=0;
         int t=0;
         for(int i:a){
@@ -33,5 +33,6 @@ class Solution {
             }
         }
         return t>=m;
+
     }
 }
