@@ -1,36 +1,44 @@
 class Solution {
     public int shipWithinDays(int[] weights, int days) {
-        int sum = 0;
-        int min = Integer.MIN_VALUE;
-        for (int i : weights) {
-            sum += i;
-            min=Math.max(i,min);
+        int l=Integer.MIN_VALUE;
+        int r=0;
+        for(int i:weights){
+            r+=i;
+            l=Math.max(l,i);
         }
+        while(l<r){
+            int m=l+(r-l)/2;
+            if(isPack(weights,m,days)){
+                r=m;
+            }else{
+                l=m+1;
+            }
+        }
+        return l;
+    }
+    boolean isPack(int a[],int m,int days){
+        int c=0;
+        int t=01;
+        for(int i:a){
+              c+=i;
+            if(c>m){
+                 c=i;
+                t++;
+               
+            }
+        }
+        return t<=days;
+    }
 
-        
-        int max = sum;
-        int ans = -1;
-        while (min <= max) {
-            int mid = (min + max) / 2;
-            if (isSolution(mid, weights, days)) {
-                ans = mid;
-                max = mid - 1;
-            } else {
-                min = mid + 1;
-            }
-        }
-        return ans;
-    }
-    boolean isSolution(int mid,int []weights,int days){
-            int c=1;
-            int sum=0;
-            for(int i:weights){
-                sum+=i;
-                if(sum>mid){
-                    sum=i;
-                    c++;
-                }
-            }
-            return c<=days;
-    }
+        //      int c=1;
+    //         int sum=0;
+    //         for(int i:weights){
+    //             sum+=i;
+    //             if(sum>mid){
+    //                 sum=i;
+    //                 c++;
+    //             }
+    //         }
+    //         return c<=days;
+    // }
 }
