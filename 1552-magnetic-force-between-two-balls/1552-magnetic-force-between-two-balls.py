@@ -1,8 +1,9 @@
 class Solution:
     def maxDistance(self, position: List[int], m: int) -> int:
         l=1
-        r=max(position)
+        
         position.sort()
+        r=position[-1]-position[0]
         ans=-1
         while(l<=r):
             mid=l+(r-l)//2
