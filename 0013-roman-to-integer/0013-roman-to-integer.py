@@ -1,30 +1,18 @@
 class Solution:
     def romanToInt(self, s: str) -> int:
-        if len(s)==0:
-            return 0
-        ans=self.get(s[0])
-        for i in range(1,len(s)):
-            if (self.get(s[i])>self.get(s[i-1])):
-                ans+=self.get(s[i])-(2*self.get(s[i-1]))
+        roman = {
+            'I': 1, 'V': 5, 'X': 10,
+            'L': 50, 'C': 100,
+            'D': 500, 'M': 1000
+        }
+        ans=0
+        prev=0
+        for ch in s:
+            val=roman[ch]
+            if val>prev:
+                ans+=val-(2*prev)
             else:
-                ans+=self.get(s[i])
+                ans+=val
+            prev=val
         return ans
 
-
-    def get(self,n):
-        if n == 'I':
-            return 1
-        elif n == 'V':
-            return 5
-        elif n == 'X':
-            return 10
-        elif n == 'L':
-            return 50
-        elif n == 'C':
-            return 100
-        elif n == 'D':
-            return 500
-        elif n == 'M':
-            return 1000
-        else:
-            return 0
