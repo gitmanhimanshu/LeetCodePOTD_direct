@@ -5,8 +5,8 @@ class Solution:
         power=self.power(x,n)
         return power if sign==1 else 1/power
     def power(self,x,n):
-        if n==1:
-            return x
+        if n==0:
+            return 1
         pow=self.power(x,n//2)
         if n&1==0:
             return pow*pow
