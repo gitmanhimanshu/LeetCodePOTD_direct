@@ -19,9 +19,16 @@ class Solution:
                 self.solve(num,target,i+1,n,n,s+st)
             else:
                 self.solve(num,target,i+1,total+n,n,s+'+'+st)
-                self.solve(num,target,i+1,total-n,n,s+'-'+st)
-                self.solve(num,target,i+1,total-prev+(n*prev),n,s+'*'+st)
-            
+                self.solve(num,target,i+1,total-n,-n,s+'-'+st)
+                self.solve(num,target,i+1,total-prev+(n*prev),n*prev,s+'*'+st)
+                # self.solve(
+                #     num,
+                #     target,
+                #     i+1,
+                #     total - prev + prev * n,
+                #     prev * n,
+                #     s + '*' + st
+                # )
 
 
         
