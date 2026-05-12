@@ -7,7 +7,7 @@ class Solution:
         for i in range(len(nums)):
             a[i+len(nums)]=nums[i]
         stack=[]
-        for i in range(len(a)-1,-1,-1):
+        for i in range(len(a)-1,len(nums)-2,-1):
             while(len(stack)>0 and a[i]>=stack[-1]):
                 stack.pop()
             if len(stack)>0:
