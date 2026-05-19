@@ -1,71 +1,43 @@
-import java.util.*;
-
 class Solution {
     public int minJumps(int[] arr) {
-
-        int n = arr.length;
-
-        if (n == 1)
-            return 0;
-
-        // value -> all indices having that value
-        Map<Integer, List<Integer>> map = new HashMap<>();
-
-        for (int i = 0; i < n; i++) {
-            map.computeIfAbsent(arr[i], k -> new ArrayList<>()).add(i);
+        Map<Integer,List<Integer>> him=new HashMap<>();
+        int step=0;
+        for(int i=0;i<arr.length;i++){
+            if(!him.containsKey(arr[i])){
+                him.put(arr[i],new ArrayList<>());
+            }
+            him.get(arr[i]).add(i);
         }
-
-        Queue<Integer> q = new LinkedList<>();
-        boolean[] visited = new boolean[n];
-
-        q.offer(0);
-        visited[0] = true;
-
-        int steps = 0;
-
-        while (!q.isEmpty()) {
-
-            int size = q.size();
-
-            while (size-- > 0) {
-
-                int i = q.poll();
-
-                // reached last index
-                if (i == n - 1)
-                    return steps;
-
-                // i + 1
-                if (i + 1 < n && !visited[i + 1]) {
-                    visited[i + 1] = true;
-                    q.offer(i + 1);
+        int vis[]=new int[arr.length];
+        Queue<Integer> q=new LinkedList<>();
+        q.add(0);
+        vis[0]=1;
+        while(!q.isEmpty()){
+            int n=q.size();
+            for(int i=1;i<=n;i++){
+                int ele=q.poll();
+                if(ele==arr.length-1){
+                    return step;
                 }
-
-                // i - 1
-                if (i - 1 >= 0 && !visited[i - 1]) {
-                    visited[i - 1] = true;
-                    q.offer(i - 1);
+                int peeche=ele-1;
+                int aage=ele+1;
+                if(peeche>=0 &&vis[peeche]==0){
+                    vis[peeche]=1;
+                    q.add(peeche);
                 }
-
-                // same value jumps
-                if (map.containsKey(arr[i])) {
-
-                    for (int idx : map.get(arr[i])) {
-
-                        if (!visited[idx]) {
-                            visited[idx] = true;
-                            q.offer(idx);
-                        }
+                if(aage>=0 &&vis[aage]==0){
+                    vis[aage]=1;
+                    q.add(aage);
+                }
+                for(Integer k:him.get(arr[ele])){
+                    if(vis[k]==0){
+                    vis[k]=1;
+                    q.add(k); 
                     }
-
-                    // IMPORTANT optimization
-                    map.remove(arr[i]);
                 }
             }
-
-            steps++;
+            step++;
         }
-
         return -1;
     }
 }
