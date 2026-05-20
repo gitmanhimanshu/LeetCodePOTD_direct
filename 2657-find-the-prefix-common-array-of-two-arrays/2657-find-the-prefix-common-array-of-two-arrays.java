@@ -2,17 +2,19 @@ class Solution {
     public int[] findThePrefixCommonArray(int[] A, int[] B) {
       int ans[]=new int[A.length];
       int c=0;
-      boolean first[]=new boolean[A.length+1];
-      boolean second[]=new boolean[B.length+1];
+      Map<Integer,Integer> him=new HashMap<>();
       for(int i=0;i<A.length;i++){
-        first[A[i]]=true;
-        second[B[i]]=true;
-        if(first[A[i]]==second[A[i]] &&first[A[i]]==true){
+        him.put(A[i],him.getOrDefault(A[i],0)+1);
+        him.put(B[i],him.getOrDefault(B[i],0)+1);
+        if(him.get(A[i])==2){
             c++;
         }
-        if(first[B[i]]==second[B[i]]&&first[B[i]]==true && A[i]!=B[i]){
+        if(him.get(B[i])==2&& A[i]!=B[i]){
             c++;
         }
+
+        
+
         ans[i]=c;
       }
         return ans;
