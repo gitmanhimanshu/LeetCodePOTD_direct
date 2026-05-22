@@ -1,35 +1,32 @@
 class Solution {
-
-
     int pivot(int a[]){
         int s=0;
         int e=a.length-1;
         while(s<e){
-            int m=s+(e-s)/2;
-            if(a[m]>a[e]){
-                s=m+1;
+            int mid=s+(e-s)/2;
+            if(a[mid]>a[e]){
+                s=s+1;
             }else{
-                e=m;
+                e=mid;
             }
         }
         return s;
     }
     public int search(int[] nums, int target) {
         int p=pivot(nums);
-                int e=binsearch(nums,target,0,p-1);
-        if(e!=-1){
-            return e;
+        int ind=search(nums,0,p-1,target);
+        if(ind!=-1){
+           return ind;
         }
-        return binsearch(nums,target,p,nums.length-1);
-    }   
-    
-    
-    int binsearch(int a[],int ele,int s,int e){
+        return search(nums,p,nums.length-1,target);
+    }
+    int search(int a[],int s,int e,int target){
+        
         while(s<=e){
-            int mid=(s+e)/2;
-            if(a[mid]==ele){
+            int mid=s+(e-s)/2;
+            if(a[mid]==target){
                 return mid;
-            }else if(a[mid]>ele){
+            }else if (a[mid]>target){
                 e=mid-1;
             }else{
                 s=mid+1;
