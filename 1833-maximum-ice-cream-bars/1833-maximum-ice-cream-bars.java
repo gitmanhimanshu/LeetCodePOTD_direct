@@ -9,7 +9,7 @@ class Solution {
             a[i]++;
         }
         int ans=0;
-        System.out.println(Arrays.toString(a));
+        // System.out.println(Arrays.toString(a));
         for(int i=0;i<a.length;i++){
             if(a[i]==0){
                 continue;
