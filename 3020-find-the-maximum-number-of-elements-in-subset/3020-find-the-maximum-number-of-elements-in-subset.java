@@ -21,9 +21,9 @@ class Solution {
             int len=0;
             while(him.getOrDefault(curr,0)>=2){
                 len+=2;
-                if(curr>Math.sqrt(Integer.MAX_VALUE)){
-                    break;
-                }
+                // if(curr>Math.sqrt(Integer.MAX_VALUE)){
+                //     break;
+                // }
                 curr=curr*curr;
             }
             if (him.getOrDefault(curr, 0) == 1) {
