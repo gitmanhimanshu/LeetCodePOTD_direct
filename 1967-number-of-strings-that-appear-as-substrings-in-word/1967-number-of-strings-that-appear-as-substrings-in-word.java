@@ -1,12 +1,21 @@
 class Solution {
-    boolean isSubString(String s,String word){
-        for(int i=0;i<=word.length()-s.length();i++){
-            if(s.equals(word.substring(i,i+s.length()))){
-                return true;
-            }
+boolean isSubString(String s, String word) {
+
+    for (int i = 0; i <= word.length() - s.length(); i++) {
+
+        int j = 0;
+
+        while (j < s.length() &&
+               word.charAt(i + j) == s.charAt(j)) {
+            j++;
         }
-        return false;
+
+        if (j == s.length())
+            return true;
     }
+
+    return false;
+}
     public int numOfStrings(String[] patterns, String word) {
         int ans=0;
         for(String s:patterns){
