@@ -2,16 +2,13 @@ class Solution {
 boolean isSubString(String s, String word) {
 
     for (int i = 0; i <= word.length() - s.length(); i++) {
-
-        int j = 0;
-
-        while (j < s.length() &&
-               word.charAt(i + j) == s.charAt(j)) {
+        int j=0;
+        while(j<s.length()&&s.charAt(j)==word.charAt(i+j)){
             j++;
         }
-
-        if (j == s.length())
+        if(j==s.length()){
             return true;
+        }
     }
 
     return false;
