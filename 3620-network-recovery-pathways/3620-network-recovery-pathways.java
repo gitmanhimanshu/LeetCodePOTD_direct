@@ -98,31 +98,24 @@ class Solution {
 
     // }
     boolean check(int mid, List<List<int[]>> him, long k, int topo[]) {
-
-        long[] dist = new long[n];
-        Arrays.fill(dist, Long.MAX_VALUE);
-
-        dist[0] = 0;
-
-        for (int u : topo) {
-
-            if (dist[u] == Long.MAX_VALUE)
-                continue;
-
-            for (int[] a : him.get(u)) {
-
-                int v = a[0];
-                int wt = a[1];
-
-                if (wt < mid)
+        long dist[]=new long[n];
+        Arrays.fill(dist,Long.MAX_VALUE);
+        dist[0]=0;
+        for(int u:topo){
+            if(dist[u]==Long.MAX_VALUE){
+             continue;
+            }
+            for(int a[]:him.get(u)){
+                int e=a[0];
+                int w=a[1];
+                if(w<mid){
                     continue;
-
-                if (dist[u] + wt < dist[v]) {
-                    dist[v] = dist[u] + wt;
+                }
+                if((dist[u]+w) <dist[e]){
+                    dist[e]=dist[u]+w;
                 }
             }
         }
-
-        return dist[n - 1] <= k;
+        return dist[n-1]<=k;
     }
 }
