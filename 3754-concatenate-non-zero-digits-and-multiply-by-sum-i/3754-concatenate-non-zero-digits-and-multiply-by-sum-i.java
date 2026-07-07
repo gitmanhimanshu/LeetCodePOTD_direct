@@ -1,19 +1,14 @@
 class Solution {
     public long sumAndMultiply(int n) {
-        long sum = 0;
-        long num = 0;
-        long place = 1;
-
-        while (n > 0) {
-            int d = n % 10;
-            if (d != 0) {
-                sum += d;
-                num += (long) d * place;
-                place *= 10;
+        long sum=0L;
+        long num=0L;
+        String s=Integer.toString(n);
+        for(char c:s.toCharArray()){
+            if(c-'0'>0){
+                sum+=(c-'0');
+                num=(num*10+(c-'0'));
             }
-            n /= 10;
         }
-
-        return sum * num;
+        return num*sum;
     }
 }
