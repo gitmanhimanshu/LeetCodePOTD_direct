@@ -1,36 +1,38 @@
 class Solution {
     public List<List<Integer>> shiftGrid(int[][] grid, int k) {
-        int m = grid.length;
-        int n = grid[0].length;
-        
-        int total = m * n;
-        k = k % total;
-        
-        int[][] res = new int[m][n];
-        
-        for(int i = 0; i < m; i++) {
-            for(int j = 0; j < n; j++) {
-                
-                int oldIndex = i * n + j;
-                int newIndex = (oldIndex + k) % total;
-                
-                int newRow = newIndex / n;
-                int newCol = newIndex % n;
-                
-                res[newRow][newCol] = grid[i][j];
+        int n=grid.length;
+        int m=grid[0].length;
+        int a[]=new int[n*m];
+        int l=0;
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                a[l++]=grid[i][j];
             }
         }
-        
-        List<List<Integer>> ans = new ArrayList<>();
-        
-        for(int i = 0; i < m; i++) {
-            List<Integer> row = new ArrayList<>();
-            for(int j = 0; j < n; j++) {
-                row.add(res[i][j]);
+        k=k%(n*m);
+        rev(a,0,(n*m)-1);
+        rev(a,0,k-1);
+        rev(a,k,(n*m)-1);
+        l=0;
+        List<List<Integer>> him=new ArrayList<>();
+        for(int i=0;i<n;i++){
+            him.add(new ArrayList<>());
+            for(int j=0;j<m;j++){
+                him.get(i).add(a[l]);
+                l++;
             }
-            ans.add(row);
         }
+        return him;
+
         
-        return ans;
+    }
+    void rev(int a[],int i,int j){
+        while(i<j){
+            int c=a[i];
+            a[i]=a[j];
+            a[j]=c;
+            i++;
+            j--;
+        }
     }
 }
