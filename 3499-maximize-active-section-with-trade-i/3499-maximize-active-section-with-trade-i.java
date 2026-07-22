@@ -1,29 +1,24 @@
 class Solution {
     public int maxActiveSectionsAfterTrade(String s) {
-        int n = s.length();
-        int ones = 0;
-        int preZero = Integer.MIN_VALUE;
-        int maxMerge = 0;
+        int one = 0;
+        List<Integer> him = new ArrayList<>();
 
-        int i = 0;
-        while (i < n) {
-            int j = i;
-            while (j < n && s.charAt(j) == s.charAt(i)) {
-                j++;
-            }
-
-            int len = j - i;
-
+        for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '1') {
-                ones += len;
+                one++;
             } else {
-                maxMerge = Math.max(maxMerge, preZero + len);
-                preZero = len;
+                if (i == 0 || s.charAt(i - 1) == '1')
+                    him.add(1);
+                else
+                    him.set(him.size() - 1, him.get(him.size() - 1) + 1);
             }
-
-            i = j;
         }
 
-        return ones + maxMerge;
+        int ans = 0;
+        for (int i = 0; i + 1 < him.size(); i++) {
+            ans = Math.max(ans, him.get(i) + him.get(i + 1));
+        }
+
+        return one + ans;
     }
 }
