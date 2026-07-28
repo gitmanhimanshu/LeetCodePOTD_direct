@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/3517-smallest-palindromic-rearrangement-i/) | Medium |
 | [3536-maximum-product-of-two-digits](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/3536-maximum-product-of-two-digits/) | Easy |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Enumeration
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0316-remove-duplicate-letters](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0316-remove-duplicate-letters/) | Medium |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [3499-maximize-active-section-with-trade-i](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3499-maximize-active-section-with-trade-i) |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/3517-smallest-palindromic-rearrangement-i/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -116,4 +118,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
+## Counting Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3517-smallest-palindromic-rearrangement-i](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/3517-smallest-palindromic-rearrangement-i/) | Medium |
 <!---LeetCode Topics End-->
