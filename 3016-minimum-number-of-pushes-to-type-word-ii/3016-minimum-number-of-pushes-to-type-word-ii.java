@@ -1,21 +1,21 @@
 class Solution {
     public int minimumPushes(String word) {
-       Map<Character,Integer> him=new HashMap<>();
-       for(Character c:word.toCharArray()){
-        him.put(c,him.getOrDefault(c,0)+1);
-       } 
-       int ans=0;
-         PriorityQueue<Integer> h=new PriorityQueue<>(Collections.reverseOrder());
-       for(Integer j:him.values()){
-h.add(j);
-       }
-  
-int i=0;
-while(!h.isEmpty()){
- ans+=h.poll()*((i/8)+1);
-i++;
-}
+        int[] freq = new int[26];
 
-       return ans; 
+        for (char c : word.toCharArray()) {
+            freq[c - 'a']++;
+        }
+
+        Arrays.sort(freq);
+
+        int ans = 0;
+        int pos = 0;
+
+        for (int i = 25; i >= 0 && freq[i] > 0; i--) {
+            ans += freq[i] * (pos / 8 + 1);
+            pos++;
+        }
+
+        return ans;
     }
 }
