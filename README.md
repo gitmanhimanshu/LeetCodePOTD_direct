@@ -157,4 +157,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0486-predict-the-winner/) | Medium |
 | [0877-stone-game](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0877-stone-game/) | Medium |
 | [1406-stone-game-iii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1406-stone-game-iii) |
+## Depth-First Search
+|  |
+| ------- |
+| [3310-remove-methods-from-project](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3310-remove-methods-from-project) |
+## Breadth-First Search
+|  |
+| ------- |
+| [3310-remove-methods-from-project](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3310-remove-methods-from-project) |
+## Graph Theory
+|  |
+| ------- |
+| [3310-remove-methods-from-project](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3310-remove-methods-from-project) |
 <!---LeetCode Topics End-->
