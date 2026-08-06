@@ -11,5 +11,5 @@ class Solution:
             if(ans==0):
                 return 0
             n=n//10
-        print(ans)
+     #print(ans)
         return ans
