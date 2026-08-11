@@ -1,9 +1,7 @@
 class Solution:
     def missingInteger(self, nums: List[int]) -> int:
         c=0
-        v=set()
-        for i in nums:
-            v.add(i)
+        v=set(nums)
         
         c=nums[0]
         for i in range(1,len(nums)):
@@ -11,7 +9,6 @@ class Solution:
                 break
             c+=nums[i]
         x=c
-        print(c)
         while x in v:
             x+=1
         return x
