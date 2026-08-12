@@ -1,69 +1,40 @@
 class Solution {
     public int[] validSequence(String word1, String word2) {
-
-        char[] first = word1.toCharArray();
-        char[] second = word2.toCharArray();
-
-        int length1 = first.length;
-        int length2 = second.length;
-
-        int[] suffixMatch = new int[length1 + 1];
-
-        int target = length2 - 1;
-        int count = 0;
-
-        for (int index = length1 - 1; index >= 0; index--) {
-
-            if (target >= 0 && first[index] == second[target]) {
-                count++;
-                target--;
+        int suff[]=new int[word1.length()];
+        int n=word1.length();
+        int m=word2.length();
+        int i=n-1;
+        int j=m-1;
+        while(i>=0){
+            int c=i<n-1?suff[i+1]:0;
+            if(j>=0&& word1.charAt(i)==word2.charAt(j)){                
+                suff[i]=c+1;
+                j--;
+            }else{
+                suff[i]=c;
             }
-
-            suffixMatch[index] = count;
+            i--;
         }
-
-        int[] result = new int[length2];
-
-        int index = 0;
-        int position = 0;
-
-        while (index < length1 && position < length2) {
-
-            if (first[index] == second[position]) {
-
-                result[position] = index;
-                position++;
-
-            } else {
-
-                if (suffixMatch[index + 1] >= length2 - position - 1) {
-
-                    result[position] = index;
-                    position++;
-                    index++;
-                    break;
+        int ans[]=new int[m];
+        boolean usedPower=false;
+        j=0;
+        int k=0;
+        for(i=0;i<n&&k<m;i++){
+            if(word1.charAt(i)==word2.charAt(j)){
+                ans[k++]=i;
+                j++;
+            }else{
+                int remaining = (i + 1 < n) ? suff[i + 1] : 0;
+                if(!usedPower && remaining >= m-j-1){
+                    ans[k++]=i;
+                    usedPower=true;
+                    j++;
                 }
             }
-
-            index++;
         }
-
-        if (position < length2 && index == length1)
+        if(k<m){
             return new int[0];
-
-        while (index < length1 && position < length2) {
-
-            if (first[index] == second[position]) {
-                result[position] = index;
-                position++;
-            }
-
-            index++;
         }
-
-        if (position != length2)
-            return new int[0];
-
-        return result;
+        return ans;
     }
 }
