@@ -1,33 +1,33 @@
 class Solution {
     public int findCircleNum(int[][] isConnected) {
-        Map<Integer,List<Integer>> him=new HashMap<>();
-        for(int i=0;i<isConnected.length;i++){
-            him.put(i,new ArrayList<>());
+        int n = isConnected.length;
+        List<List<Integer>> him = new ArrayList<>();
+        for(int i=0;i<n;i++){
+            him.add(new ArrayList<>());
         }
-        for(int i=0;i<isConnected.length;i++){
-            for(int j=0;j<isConnected.length;j++){
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
                 if(isConnected[i][j]==1){
                     him.get(i).add(j);
                 }
             }
-       
         }
-         int ans=0;
-        int v[]=new int[isConnected.length];
-        for(int i=0;i<v.length;i++){
+        int v[]=new int[n];
+        int ans=0;
+        for(int i=0;i<n;i++){
             if(v[i]==0){
+                solve(him,v,i);
                 ans++;
-                solve(v,him,i);
             }
         }
         return ans;
     }
-    void solve(int v[],Map<Integer,List<Integer>> him,int i){
-        for(int j:him.get(i)){
-            if(v[j]==0){
-                v[j]=1;
-                solve(v,him,j);
+    void solve(List<List<Integer>> him,int v[],int i){
+            v[i]=1;
+            for(Integer j:him.get(i)){
+                if(v[j]==0){
+                    solve(him,v,j);
+                }
             }
-        }
     }
 }
