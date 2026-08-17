@@ -1,25 +1,32 @@
 class Solution {
-    int x[];
-    int y[];
+    int dir[][];
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
-        x=new int[]{1,-1,0,0};
-        y=new int[]{0,0,1,-1};
-        int st=image[sr][sc];
-         for(int i=0;i<4;i++){
-            solve(image,sr+x[i],sc+y[i],color,st);
-         }
-         return image;
+        dir = new int[][]{
+    {1, 0},
+    {-1, 0},
+    {0, 1},
+    {0, -1}
+};
+        int prev=image[sr][sc];
+        if(prev == color){
+        return image;
     }
-    boolean isValid(int [][]a, int x, int y,int color,int st){
-        return x>=0 && y>=0 && x<a.length && y<a[0].length && a[x][y]!=color && a[x][y]==st;
+        solve(sr,sc,image,prev,color);
+        return image;
     }
-   void solve(int image[][],int sr,int sc,int color,int st){
-        if(!isValid(image,sr,sc,color,st)){
-            return;
+    boolean isValid(int i,int j,int prev,int a[][]){
+        return i>=0&&j>=0&&i<a.length&&j<a[0].length&&a[i][j]==prev;
+    }
+    void solve(int sr,int sc,int image[][],int prev,int color){
+        if(!isValid(sr,sc,prev,image)){
+            return ;
         }
+        int curr=image[sr][sc];
         image[sr][sc]=color;
-        for(int i=0;i<4;i++){
-            solve(image,sr+x[i],sc+y[i],color,st);
-         }
+        for(int d[]:dir){
+            int next_i=sr+d[0];
+            int next_j=sc+d[1];
+            solve(next_i,next_j,image,curr,color);
+        }
     }
 }
