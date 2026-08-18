@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0486-predict-the-winner/) | Medium |
+| [0542-01-matrix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0542-01-matrix) |
 | [0628-maximum-product-of-three-numbers](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0733-flood-fill](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0733-flood-fill) |
 | [0877-stone-game](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0877-stone-game/) | Medium |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0486-predict-the-winner/) | Medium |
+| [0542-01-matrix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0542-01-matrix) |
 | [0877-stone-game](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0877-stone-game/) | Medium |
 | [1140-stone-game-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1140-stone-game-ii/) | Medium |
 | [1406-stone-game-iii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1406-stone-game-iii) |
@@ -170,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0542-01-matrix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0994-rotting-oranges) |
 | [1260-shift-2d-grid](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1260-shift-2d-grid) |
@@ -210,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0542-01-matrix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0994-rotting-oranges) |
