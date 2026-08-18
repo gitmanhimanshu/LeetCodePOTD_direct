@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0733-flood-fill) |
 | [0877-stone-game](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0877-stone-game/) | Medium |
 | [0994-rotting-oranges](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0994-rotting-oranges) |
+| [1020-number-of-enclaves](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1020-number-of-enclaves) |
 | [1140-stone-game-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1140-stone-game-ii/) | Medium |
 | [1260-shift-2d-grid](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1260-shift-2d-grid) |
 | [1331-rank-transform-of-an-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1331-rank-transform-of-an-array/) | Easy |
@@ -177,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0994-rotting-oranges) |
+| [1020-number-of-enclaves](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1020-number-of-enclaves) |
 | [1260-shift-2d-grid](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1260-shift-2d-grid) |
 ## Bit Manipulation
 |  |
@@ -212,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0733-flood-fill) |
+| [1020-number-of-enclaves](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1020-number-of-enclaves) |
 | [3310-remove-methods-from-project](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3310-remove-methods-from-project) |
 ## Breadth-First Search
 |  |
@@ -221,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0994-rotting-oranges) |
+| [1020-number-of-enclaves](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1020-number-of-enclaves) |
 | [3310-remove-methods-from-project](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3310-remove-methods-from-project) |
 ## Graph Theory
 |  |
@@ -262,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0130-surrounded-regions](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0547-number-of-provinces) |
+| [1020-number-of-enclaves](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1020-number-of-enclaves) |
 ## Segment Tree
 |  |
 | ------- |
