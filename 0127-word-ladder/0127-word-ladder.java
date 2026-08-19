@@ -13,8 +13,9 @@ class Solution {
             l++;
             for(int i=1;i<=n;i++){
                 String t=him.poll();
+                char c[]=t.toCharArray();
                 for(int j=0;j<t.length();j++){
-                    char c[]=t.toCharArray();
+                    char old=c[j];
                     for(char k='a';k<='z';k++){
                         c[j]=k;
                     String new1=new String(c);
@@ -26,6 +27,7 @@ class Solution {
                         vis.add(new1);
                     }
                     }
+                    c[j]=old;
                 }
             }
         }
