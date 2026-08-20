@@ -1,35 +1,36 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        ArrayList<ArrayList<Integer>>him=new ArrayList<>();
-        for(int i=0;i<numCourses;i++){
+        List<List<Integer>> him = new ArrayList<>();
+        for (int i = 0; i < numCourses; i++) {
             him.add(new ArrayList<>());
         }
-        for(int a[]: prerequisites){
-            him.get(a[1]).add(a[0]);
+        int in[] = new int[numCourses];
+        for (int a[] : prerequisites) {
+            him.get(a[0]).add(a[1]);
+            in[a[1]]++;
         }
-        int in[]=new int [numCourses];
-        for(int i=0;i<in.length;i++){
-            for(Integer j:him.get(i)){
-                in[j]++;
+        System.out.println(Arrays.toString(in));
+        Queue<Integer> h = new LinkedList<>();
+        for (int i = 0; i < in.length; i++) {
+            if (in[i] == 0) {
+                h.add(i);
             }
         }
-        Queue<Integer> h=new LinkedList<>();
-        for(int i=0;i<in.length;i++){
-         if(in[i]==0){
-             h.add(i);
-         }
-        }
-        int a=0;
-        while(!h.isEmpty()){
-            int c=h.poll();
-            a++;
-            for(Integer j: him.get(c)){
-                in[j]--;
-                if(in[j]==0){
-                    h.add(j);
+        int c = h.size();
+        System.out.println(c);
+        while (!h.isEmpty()) {
+            int ele=h.poll();
+            System.out.println(ele);
+            System.out.println(him.get(ele));
+            for(int i:him.get(ele)){
+                in[i]--;
+                System.out.println(in[i]);
+                if(in[i]==0){
+                    c++;
+                    h.add(i);
                 }
             }
         }
-        return a==in.length;
+        return c==numCourses;
     }
 }
