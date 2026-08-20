@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0200-number-of-islands) |
 | [0486-predict-the-winner](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0486-predict-the-winner/) | Medium |
 | [0542-01-matrix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0542-01-matrix) |
 | [0628-maximum-product-of-three-numbers](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0994-rotting-oranges) |
@@ -220,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0733-flood-fill) |
 | [1020-number-of-enclaves](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1020-number-of-enclaves) |
@@ -229,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0127-word-ladder](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0733-flood-fill) |
@@ -274,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0547-number-of-provinces) |
 | [1020-number-of-enclaves](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1020-number-of-enclaves) |
 ## Segment Tree
