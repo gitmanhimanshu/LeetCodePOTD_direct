@@ -9,7 +9,7 @@ class Solution {
             him.get(a[0]).add(a[1]);
             in[a[1]]++;
         }
-        System.out.println(Arrays.toString(in));
+        // System.out.println(Arrays.toString(in));
         Queue<Integer> h = new LinkedList<>();
         for (int i = 0; i < in.length; i++) {
             if (in[i] == 0) {
@@ -17,14 +17,14 @@ class Solution {
             }
         }
         int c = h.size();
-        System.out.println(c);
+        // System.out.println(c);
         while (!h.isEmpty()) {
             int ele=h.poll();
-            System.out.println(ele);
-            System.out.println(him.get(ele));
+            // System.out.println(ele);
+            // System.out.println(him.get(ele));
             for(int i:him.get(ele)){
                 in[i]--;
-                System.out.println(in[i]);
+                // System.out.println(in[i]);
                 if(in[i]==0){
                     c++;
                     h.add(i);
