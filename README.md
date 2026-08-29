@@ -2,8 +2,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Array
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0130-surrounded-regions](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0200-number-of-islands) |
 | [0486-predict-the-winner](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0486-predict-the-winner/) | Medium |
@@ -39,8 +39,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3731-find-missing-elements](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3731-find-missing-elements) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Hash Table
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0127-word-ladder](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0127-word-ladder) |
 | [1331-rank-transform-of-an-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1386-cinema-seat-allocation](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1386-cinema-seat-allocation) |
@@ -54,8 +54,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3718-smallest-missing-multiple-of-k](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3731-find-missing-elements](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3731-find-missing-elements) |
 ## Sorting
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0628-maximum-product-of-three-numbers](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
@@ -66,15 +66,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3731-find-missing-elements](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3731-find-missing-elements) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Enumeration
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1291-sequential-digits](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1291-sequential-digits/) | Medium |
 | [3345-smallest-divisible-digit-product-i](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3514-number-of-unique-xor-triplets-ii) |
 ## Math
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0486-predict-the-winner](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0486-predict-the-winner/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0877-stone-game](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0877-stone-game/) | Medium |
@@ -100,8 +100,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3658-gcd-of-odd-and-even-sums](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/3658-gcd-of-odd-and-even-sums/) | Easy |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Dynamic Programming
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0486-predict-the-winner](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0486-predict-the-winner/) | Medium |
 | [0542-01-matrix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0542-01-matrix) |
 | [0877-stone-game](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0877-stone-game/) | Medium |
@@ -113,8 +113,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 ## Number Theory
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
@@ -123,43 +123,43 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3658-gcd-of-odd-and-even-sums](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/3658-gcd-of-odd-and-even-sums/) | Easy |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Two Pointers
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Simulation
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1260-shift-2d-grid](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1260-shift-2d-grid) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Binary Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
 ## Combinatorics
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 ## Counting
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [2029-stone-game-ix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/2029-stone-game-ix/) | Medium |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 ## Prefix Sum
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1140-stone-game-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1140-stone-game-ii/) | Medium |
 | [1872-stone-game-viii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1872-stone-game-viii) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
 ## String
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0127-word-ladder](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0127-word-ladder) |
 | [0316-remove-duplicate-letters](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0316-remove-duplicate-letters/) | Medium |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
@@ -175,13 +175,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/3517-smallest-palindromic-rearrangement-i/) | Medium |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 ## Stack
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0316-remove-duplicate-letters](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0316-remove-duplicate-letters/) | Medium |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 ## Greedy
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0316-remove-duplicate-letters](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0316-remove-duplicate-letters/) | Medium |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1386-cinema-seat-allocation](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1386-cinema-seat-allocation) |
@@ -192,13 +192,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Monotonic Stack
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0316-remove-duplicate-letters](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0316-remove-duplicate-letters/) | Medium |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 ## Matrix
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0130-surrounded-regions](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0542-01-matrix) |
@@ -208,28 +208,28 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1091-shortest-path-in-binary-matrix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1260-shift-2d-grid](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1260-shift-2d-grid) |
 ## Bit Manipulation
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1386-cinema-seat-allocation](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1386-cinema-seat-allocation) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3513-number-of-unique-xor-triplets-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/3702-longest-subsequence-with-non-zero-bitwise-xor/) | Medium |
 ## Heap (Priority Queue)
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
 ## Counting Sort
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/3517-smallest-palindromic-rearrangement-i/) | Medium |
 ## Recursion
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0486-predict-the-winner](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0486-predict-the-winner/) | Medium |
 ## Game Theory
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0486-predict-the-winner](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0486-predict-the-winner/) | Medium |
 | [0877-stone-game](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0877-stone-game/) | Medium |
 | [1140-stone-game-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1140-stone-game-ii/) | Medium |
@@ -240,8 +240,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1927-sum-game](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1927-sum-game/) | Medium |
 | [2029-stone-game-ix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/2029-stone-game-ix/) | Medium |
 ## Depth-First Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0130-surrounded-regions](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0207-course-schedule) |
@@ -253,8 +253,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1020-number-of-enclaves) |
 | [3310-remove-methods-from-project](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3310-remove-methods-from-project) |
 ## Breadth-First Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0103-binary-tree-zigzag-level-order-traversal](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0127-word-ladder](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0200-number-of-islands) |
@@ -270,8 +271,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1091-shortest-path-in-binary-matrix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1091-shortest-path-in-binary-matrix) |
 | [3310-remove-methods-from-project](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3310-remove-methods-from-project) |
 ## Graph Theory
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0207-course-schedule](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0547-number-of-provinces) |
@@ -279,82 +280,90 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0802-find-eventual-safe-states](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0802-find-eventual-safe-states) |
 | [3310-remove-methods-from-project](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3310-remove-methods-from-project) |
 ## Backtracking
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Minimax
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1140-stone-game-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1140-stone-game-ii/) | Medium |
 | [1510-stone-game-iv](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1510-stone-game-iv) |
 | [1872-stone-game-viii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1872-stone-game-viii) |
 | [2029-stone-game-ix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/2029-stone-game-ix/) | Medium |
 ## Zero-Sum Game
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1140-stone-game-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1140-stone-game-ii/) | Medium |
 | [1510-stone-game-iv](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1510-stone-game-iv) |
 | [1872-stone-game-viii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1872-stone-game-viii) |
 | [2029-stone-game-ix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/2029-stone-game-ix/) | Medium |
 ## Nim Game
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1510-stone-game-iv](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1510-stone-game-iv) |
 | [2029-stone-game-ix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/2029-stone-game-ix/) | Medium |
 ## Sprague–Grundy Theorem
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [1510-stone-game-iv](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1510-stone-game-iv) |
 ## Sliding Window
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Union-Find
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0130-surrounded-regions](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1020-number-of-enclaves) |
 ## Segment Tree
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2213-longest-substring-of-one-repeating-character) |
 ## Ordered Set
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2213-longest-substring-of-one-repeating-character) |
 ## Bidirectional Search
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0127-word-ladder](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0127-word-ladder) |
 ## Graph Coloring
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0785-is-graph-bipartite](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0785-is-graph-bipartite) |
 ## Bipartite Graph
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0785-is-graph-bipartite](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0785-is-graph-bipartite) |
 ## Topological Sort
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0207-course-schedule](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0210-course-schedule-ii) |
 | [0802-find-eventual-safe-states](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0802-find-eventual-safe-states) |
 ## Directed Acyclic Graph
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0207-course-schedule](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0207-course-schedule) |
 ## Kosaraju's Algorithm
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0802-find-eventual-safe-states](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0802-find-eventual-safe-states) |
 ## Tarjan's SCC Algorithm
-|  |
-| ------- |
+| Problem Name | Difficulty |
+| ------- | ------- |
 | [0802-find-eventual-safe-states](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0802-find-eventual-safe-states) |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0103-binary-tree-zigzag-level-order-traversal](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0103-binary-tree-zigzag-level-order-traversal](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 <!---LeetCode Topics End-->
