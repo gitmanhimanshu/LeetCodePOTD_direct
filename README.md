@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1406-stone-game-iii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [1563-stone-game-v](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1563-stone-game-v) |
+| [1631-path-with-minimum-effort](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1631-path-with-minimum-effort) |
 | [1872-stone-game-viii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1872-stone-game-viii) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [2029-stone-game-ix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/2029-stone-game-ix/) | Medium |
@@ -141,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [1631-path-with-minimum-effort](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1631-path-with-minimum-effort) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
 ## Combinatorics
@@ -213,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1260-shift-2d-grid](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1260-shift-2d-grid) |
+| [1631-path-with-minimum-effort](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1631-path-with-minimum-effort) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -225,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
+| [1631-path-with-minimum-effort](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1631-path-with-minimum-effort) |
 ## Counting Sort
 |  |
 | ------- |
@@ -257,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0785-is-graph-bipartite](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0785-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0802-find-eventual-safe-states) |
 | [1020-number-of-enclaves](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1020-number-of-enclaves) |
+| [1631-path-with-minimum-effort](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1631-path-with-minimum-effort) |
 | [3310-remove-methods-from-project](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3310-remove-methods-from-project) |
 ## Breadth-First Search
 |  |
@@ -275,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1631-path-with-minimum-effort) |
 | [3310-remove-methods-from-project](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3310-remove-methods-from-project) |
 ## Graph Theory
 |  |
@@ -326,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1020-number-of-enclaves) |
+| [1631-path-with-minimum-effort](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1631-path-with-minimum-effort) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/2948-make-lexicographically-smallest-array-by-swapping-elements/) | Medium |
 ## Segment Tree
 |  |
@@ -377,4 +384,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
+## Dijkstra's Algorithm
+|  |
+| ------- |
+| [1631-path-with-minimum-effort](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1631-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
