@@ -8,9 +8,9 @@ class Pair implements Comparable<Pair>{
         this.stops=stops;
     }
     public int compareTo(Pair that){
-        if(this.value==that.value){
-            return this.stops-that.stops;
-        }
+        // if(this.value==that.value){
+        //     return this.stops-that.stops;
+        // }
         return this.value-that.value;
     }
     
