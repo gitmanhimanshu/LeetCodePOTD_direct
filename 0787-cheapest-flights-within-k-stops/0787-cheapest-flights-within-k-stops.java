@@ -36,11 +36,11 @@ class Solution {
         int c=0;
         while(!h.isEmpty()){
             Pair p=h.poll();
-            // print(p,c);
+            print(p,c);
             c++;
-            // if(p.cal==){
-            //     return 
-            // }
+            if(p.key==dst){
+                return  p.value;
+            }
             if(p.stops>k){
                 continue;
             }
