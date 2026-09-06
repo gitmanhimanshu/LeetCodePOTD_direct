@@ -1,14 +1,13 @@
 class Solution {
     int dp[][];
     public int numDistinct(String s, String t) {
-         dp=new int[s.length()][t.length()];
-         for(int a[]:dp){
-            Arrays.fill(a,-1);
-         }
-     return solve(0,s,t,0);   
+            dp=new int[s.length()+1][t.length()+1];
+            for(int a[]:dp){
+                Arrays.fill(a,-1);
+            }
+        return solve(0,0,s,t);
     }
-    int solve(int i,String s,String t,int j){
-        
+    int solve(int i,int j,String s,String t){
         if(j>=t.length()){
             return 1;
         }
@@ -18,12 +17,11 @@ class Solution {
         if(dp[i][j]!=-1){
             return dp[i][j];
         }
-       int ways=0;
+        int sum=0;
         if(s.charAt(i)==t.charAt(j)){
-             ways = solve(i+1, s, t, j+1) + solve(i+1, s, t, j);
-        }else{
-            ways=solve(i+1, s, t, j);
+            sum+=solve(i+1,j+1,s,t);
         }
-        return dp[i][j]=ways;
+        sum+=solve(i+1,j,s,t);
+        return dp[i][j]=sum;
     }
 }
