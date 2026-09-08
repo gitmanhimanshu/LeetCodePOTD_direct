@@ -3,8 +3,12 @@ class Solution {
         if(n<1000){
             return 0;
         }
-        return n-999;
-        // int c=0;
+        // return n-999;
+         int c=0;
+         for(int i=1000;i<=n;i++){
+            c++;
+         }
+         return c;
 
     }
 }
