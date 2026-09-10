@@ -285,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0802-find-eventual-safe-states](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0802-find-eventual-safe-states) |
 | [1020-number-of-enclaves](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1020-number-of-enclaves) |
 | [1631-path-with-minimum-effort](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1631-path-with-minimum-effort) |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [3310-remove-methods-from-project](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3310-remove-methods-from-project) |
 ## Breadth-First Search
 |  |
@@ -404,10 +405,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Linked List
 |  |
 | ------- |
