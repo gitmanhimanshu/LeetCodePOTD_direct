@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0209-minimum-size-subarray-sum) |
+| [0219-contains-duplicate-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0219-contains-duplicate-ii) |
 | [0454-4sum-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0454-4sum-ii) |
 | [0486-predict-the-winner](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0486-predict-the-winner/) | Medium |
 | [0542-01-matrix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0542-01-matrix) |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0076-minimum-window-substring](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0127-word-ladder) |
+| [0219-contains-duplicate-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0219-contains-duplicate-ii) |
 | [0454-4sum-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0454-4sum-ii) |
 | [1331-rank-transform-of-an-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1386-cinema-seat-allocation](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1386-cinema-seat-allocation) |
@@ -361,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0076-minimum-window-substring](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0209-minimum-size-subarray-sum) |
+| [0219-contains-duplicate-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0219-contains-duplicate-ii) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3090-maximum-length-substring-with-two-occurrences) |
