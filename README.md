@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0486-predict-the-winner/) | Medium |
 | [0542-01-matrix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0542-01-matrix) |
 | [0628-maximum-product-of-three-numbers](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
+| [0713-subarray-product-less-than-k](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0713-subarray-product-less-than-k) |
 | [0733-flood-fill](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0733-flood-fill) |
 | [0877-stone-game](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0877-stone-game/) | Medium |
 | [0994-rotting-oranges](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0994-rotting-oranges) |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0209-minimum-size-subarray-sum) |
+| [0713-subarray-product-less-than-k](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0713-subarray-product-less-than-k) |
 | [1631-path-with-minimum-effort](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1631-path-with-minimum-effort) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
@@ -186,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0209-minimum-size-subarray-sum) |
+| [0713-subarray-product-less-than-k](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0713-subarray-product-less-than-k) |
 | [1140-stone-game-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1140-stone-game-ii/) | Medium |
 | [1872-stone-game-viii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1872-stone-game-viii) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
@@ -369,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0219-contains-duplicate-ii) |
+| [0713-subarray-product-less-than-k](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0713-subarray-product-less-than-k) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
