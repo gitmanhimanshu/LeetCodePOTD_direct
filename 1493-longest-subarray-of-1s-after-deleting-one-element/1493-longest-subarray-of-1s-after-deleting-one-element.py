@@ -15,7 +15,7 @@ class Solution:
                 i+=1
             ans=max(ans,j-i)
             j+=1
-        return ans if zero!=0 else len(nums)-1
+        return ans 
 
     #     ans=0
     #     zero=0
