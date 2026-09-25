@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1386-cinema-seat-allocation](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1386-cinema-seat-allocation) |
 | [1406-stone-game-iii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1406-stone-game-iii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1563-stone-game-v](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1563-stone-game-v) |
 | [1631-path-with-minimum-effort](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1631-path-with-minimum-effort) |
 | [1872-stone-game-viii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1872-stone-game-viii) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-distinct-subsequences-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0940-distinct-subsequences-ii) |
 | [1140-stone-game-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1140-stone-game-ii/) | Medium |
 | [1406-stone-game-iii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1406-stone-game-iii) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1510-stone-game-iv](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1563-stone-game-v) |
 | [1872-stone-game-viii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1872-stone-game-viii) |
@@ -374,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0219-contains-duplicate-ii) |
 | [0713-subarray-product-less-than-k](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0713-subarray-product-less-than-k) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3090-maximum-length-substring-with-two-occurrences) |
