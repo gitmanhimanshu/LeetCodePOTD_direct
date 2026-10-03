@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0454-4sum-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0454-4sum-ii) |
 | [0486-predict-the-winner](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0486-predict-the-winner/) | Medium |
 | [0542-01-matrix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0542-01-matrix) |
+| [0560-subarray-sum-equals-k](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0560-subarray-sum-equals-k) |
 | [0628-maximum-product-of-three-numbers](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0713-subarray-product-less-than-k](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0713-subarray-product-less-than-k) |
 | [0733-flood-fill](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0733-flood-fill) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0127-word-ladder) |
 | [0219-contains-duplicate-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0219-contains-duplicate-ii) |
 | [0454-4sum-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0454-4sum-ii) |
+| [0560-subarray-sum-equals-k](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0560-subarray-sum-equals-k) |
 | [1331-rank-transform-of-an-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1386-cinema-seat-allocation](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1386-cinema-seat-allocation) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
@@ -195,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0209-minimum-size-subarray-sum) |
+| [0560-subarray-sum-equals-k](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0713-subarray-product-less-than-k) |
 | [1140-stone-game-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1140-stone-game-ii/) | Medium |
 | [1872-stone-game-viii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1872-stone-game-viii) |
