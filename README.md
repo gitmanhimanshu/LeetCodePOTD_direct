@@ -213,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0076-minimum-window-substring) |
 | [0115-distinct-subsequences](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0115-distinct-subsequences/) | Hard |
 | [0127-word-ladder](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0127-word-ladder) |
+| [0301-remove-invalid-parentheses](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0301-remove-invalid-parentheses) |
 | [0316-remove-duplicate-letters](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0316-remove-duplicate-letters/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0856-score-of-parentheses](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0856-score-of-parentheses) |
@@ -341,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0210-course-schedule-ii) |
+| [0301-remove-invalid-parentheses](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0301-remove-invalid-parentheses) |
 | [0542-01-matrix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0733-flood-fill) |
@@ -368,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0301-remove-invalid-parentheses](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0301-remove-invalid-parentheses) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Minimax
 |  |
