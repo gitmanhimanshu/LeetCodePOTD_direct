@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/2091-removing-minimum-and-maximum-from-array/) | Medium |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
+| [2333-minimum-sum-of-squared-difference](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/2948-make-lexicographically-smallest-array-by-swapping-elements/) | Medium |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
+| [2333-minimum-sum-of-squared-difference](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/2948-make-lexicographically-smallest-array-by-swapping-elements/) | Medium |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
@@ -179,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0209-minimum-size-subarray-sum) |
 | [0713-subarray-product-less-than-k](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0713-subarray-product-less-than-k) |
 | [1631-path-with-minimum-effort](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1631-path-with-minimum-effort) |
+| [2333-minimum-sum-of-squared-difference](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2333-minimum-sum-of-squared-difference) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
 ## Combinatorics
@@ -261,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1927-sum-game](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1927-sum-game/) | Medium |
 | [2029-stone-game-ix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/2029-stone-game-ix/) | Medium |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/2091-removing-minimum-and-maximum-from-array/) | Medium |
+| [2333-minimum-sum-of-squared-difference](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2333-minimum-sum-of-squared-difference) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
@@ -300,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [1631-path-with-minimum-effort](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1631-path-with-minimum-effort) |
+| [2333-minimum-sum-of-squared-difference](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2333-minimum-sum-of-squared-difference) |
 ## Counting Sort
 |  |
 | ------- |
