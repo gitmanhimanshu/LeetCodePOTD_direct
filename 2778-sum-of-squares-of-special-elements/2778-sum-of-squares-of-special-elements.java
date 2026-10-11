@@ -1,12 +1,17 @@
 class Solution {
     public int sumOfSquares(int[] nums) {
-        int ans=0;
-        int n=nums.length;
-        for(int i=0;i<n;i++){
-            if(n%(i+1)==0){
-                ans+=(nums[i]*nums[i]);
-            }
+        int sum=0,n=nums.length;
+        ArrayList<Integer> a=new ArrayList<>();
+        for(int i:nums){
+            a.add(i);
         }
-        return ans;
+        int k=1;
+        for(int i:a){
+            if(n%k==0){
+                sum+=(i*i);
+            }
+            k+=1;
+        }
+        return sum;
     }
 }
