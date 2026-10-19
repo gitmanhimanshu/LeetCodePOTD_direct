@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1872-stone-game-viii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1872-stone-game-viii) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [2029-stone-game-ix](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/2029-stone-game-ix/) | Medium |
+| [2089-find-target-indices-after-sorting-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/2091-removing-minimum-and-maximum-from-array/) | Medium |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0628-maximum-product-of-three-numbers](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [1331-rank-transform-of-an-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
+| [2089-find-target-indices-after-sorting-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/2948-make-lexicographically-smallest-array-by-swapping-elements/) | Medium |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -188,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0209-minimum-size-subarray-sum) |
 | [0713-subarray-product-less-than-k](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0713-subarray-product-less-than-k) |
 | [1631-path-with-minimum-effort](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1631-path-with-minimum-effort) |
+| [2089-find-target-indices-after-sorting-array](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2089-find-target-indices-after-sorting-array) |
 | [2333-minimum-sum-of-squared-difference](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2333-minimum-sum-of-squared-difference) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
