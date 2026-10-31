@@ -232,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0316-remove-duplicate-letters](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0316-remove-duplicate-letters/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0856-score-of-parentheses](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0856-score-of-parentheses) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0940-distinct-subsequences-ii](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0940-distinct-subsequences-ii) |
 | [1021-remove-outermost-parentheses](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1021-remove-outermost-parentheses) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
@@ -260,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0316-remove-duplicate-letters](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0316-remove-duplicate-letters/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0856-score-of-parentheses](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0856-score-of-parentheses) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1021-remove-outermost-parentheses](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1021-remove-outermost-parentheses) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
@@ -270,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0316-remove-duplicate-letters](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0316-remove-duplicate-letters/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0678-valid-parenthesis-string/) | Medium |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1386-cinema-seat-allocation](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1386-cinema-seat-allocation) |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
@@ -512,6 +515,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0032-longest-valid-parentheses) |
 | [0678-valid-parenthesis-string](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0856-score-of-parentheses](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0856-score-of-parentheses) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1021-remove-outermost-parentheses](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1021-remove-outermost-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1190-reverse-substrings-between-each-pair-of-parentheses/) | Medium |
