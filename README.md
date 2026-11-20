@@ -349,6 +349,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0130-surrounded-regions](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0207-course-schedule) |
@@ -367,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
+| [0104-maximum-depth-of-binary-tree](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0127-word-ladder](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0200-number-of-islands) |
@@ -491,11 +493,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
+| [0104-maximum-depth-of-binary-tree](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0104-maximum-depth-of-binary-tree) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
+| [0104-maximum-depth-of-binary-tree](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/0104-maximum-depth-of-binary-tree) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Linked List
 |  |
