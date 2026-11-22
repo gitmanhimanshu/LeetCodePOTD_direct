@@ -245,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1927-sum-game](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/1927-sum-game/) | Medium |
+| [2124-check-if-all-as-appears-before-all-bs](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2124-check-if-all-as-appears-before-all-bs) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/gitmanhimanshu/LeetCodePOTD_direct/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
